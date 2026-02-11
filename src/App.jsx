@@ -5,6 +5,8 @@ import './App.css'
 import Home from './Project/Home'
 import Products from './Project/Products'
 import {Routes,Route} from "react-router-dom"
+import SignUp from './Project/SignUp'
+import Login from './Project/Login'
 
 function App() {
   
@@ -13,6 +15,8 @@ function App() {
     <>
                 
             <Routes>
+              <Route path="/" element={<SignUp />} />
+              <Route path="/login" element={<Login />} />
               <Route path="/" element={<Home />} />
               <Route path="/home" element={<Home />} />
               <Route path="/products" element={<Products />} />
