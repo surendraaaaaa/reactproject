@@ -9,6 +9,8 @@ export default function Home() {
   <div className="flex-1">
      <Link to="/home" className="btn btn-ghost text-xl">Home</Link>
       <Link to="/products" className="btn btn-ghost text-xl">Products</Link>
+      <Link to="/users" className="btn btn-ghost text-xl">Users</Link>
+
       
   </div>
   <div className="flex gap-2">

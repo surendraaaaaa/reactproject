@@ -7,6 +7,7 @@ import Products from './Project/Products'
 import {Routes,Route} from "react-router-dom"
 import SignUp from './Project/SignUp'
 import Login from './Project/Login'
+import Users from './Project/Users'
 
 function App() {
   
@@ -20,6 +21,8 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/home" element={<Home />} />
               <Route path="/products" element={<Products />} />
+               <Route path="/users" element={<Users />} />
+
             </Routes>
         
     </>
